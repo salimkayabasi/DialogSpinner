@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion "${rootProject.ext.buildToolsVersion}"
+
+  defaultConfig {
+    applicationId "com.github.salimkayabasi.dialogspinner.example"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+
+    versionCode rootProject.ext.versionCode
+    versionName rootProject.ext.versionName
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile rootProject.ext.supportLibAppCompat
+  compile rootProject.ext.butterKnife
+  compile project(':dialogspinner')
+}

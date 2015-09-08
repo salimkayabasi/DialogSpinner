@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="DialogSpinner">
+    <attr name="dspinner_title" format="string"/>
+    <attr name="dspinner_hint" format="string"/>
+    <attr name="dspinner_negative_text" format="string"/>
+    <attr name="dspinner_positive_text" format="string"/>
+    <attr name="dspinner_no_items_error_text" format="string"/>
+    <attr name="dspinner_title_color" format="color"/>
+    <attr name="dspinner_type" format="enum">
+      <enum name="single" value="0"/>
+      <enum name="checkbox" value="1"/>
+      <enum name="radio" value="2"/>
+    </attr>
+  </declare-styleable>
+</resources>

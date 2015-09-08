@@ -1,0 +1,4 @@
+<resources>
+  <string name="dspinner_please_select">Lütfen seçiniz</string>
+  <string name="dspinner_required_field">Zorunlu alan</string>
+</resources>

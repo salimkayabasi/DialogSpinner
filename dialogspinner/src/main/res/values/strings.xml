@@ -1,0 +1,4 @@
+<resources>
+  <string name="dspinner_please_select">Please select</string>
+  <string name="dspinner_required_field">Required Field</string>
+</resources>
